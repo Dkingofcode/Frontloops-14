@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    background-color: rgb(53, 56, 99);
+}
+
+.Order-menu{
+   width: 35%;
+   margin: 20px auto; 
+}
+
+.header{
+    z-index: 1;
+    padding: 10px 0;
+}
+
+.header img{
+    background-color: rgb(55, 54, 73);
+    width: 87px;
+    height: 56px;
+    padding: 14px;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.header img:nth-child(3){
+    background-color: rgb(10, 10, 10);
+    z-index: 2;
+    margin-left: 0px;
+    width: 90px;
+    height: 74px;
+    padding: 19px;
+    position: relative;
+    left: 0px;
+    bottom: -10px;
+    box-shadow: 1px 2px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+.header img:nth-child(2){
+    position: relative;
+    left: 4px;
+}
+
+.header img:nth-child(4){
+    position: relative;
+    right: 4px;
+}
+
+.header img:nth-child(1){
+    position: relative;
+    left: 5px; 
+}
+
+.header img:nth-child(5){
+    position: relative;
+    right: 5px;
+}
+
+.menu{
+    width: 26%;
+    margin: 0 auto;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 6px 7px 0 rgb(0, 0, 0, 0.4);
+}
+
+.menu-top{
+    background: url(img/food.jpg);
+    height: 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-top h1{
+    color: white;
+    font-size: 30px;
+    height: 120px;
+    padding: 84px 0 0 0;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.menu-top h6{
+    color: white;
+    font-size: 17px;
+}
+
+.menu-top p{
+    color: white;
+    font-size: 16px;
+}
+
+.menu-top div{
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 10px;
+    display: flex;
+}
+
+.pizza,
+.Sushi,
+.Gourmet,
+.Burger{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 10px 0 10px; 
+}
+
+.pizza{
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+
+
+.Sushi{
+   border-bottom: 1px solid gray;
+}
+
+.menu p{
+   margin-top: 20px;
+   color: gray;
+   font-size: 17px;
+}
+
+
